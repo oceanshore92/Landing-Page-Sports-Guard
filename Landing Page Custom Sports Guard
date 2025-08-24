@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Custom SportsGuard Program | Protect Your Athletes</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        .hero-section {
+            background: linear-gradient(rgba(37, 99, 235, 0.8), rgba(37, 99, 235, 0.8)), url('https://placehold.co/1200x600/3b82f6/ffffff?text=Young+Athletes+in+Action');
+            background-size: cover;
+            background-position: center;
+        }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+    <!-- Header -->
+    <header class="bg-white shadow-md sticky top-0 z-50">
+        <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <div class="text-2xl font-bold text-blue-700">
+                SportsGuard
+            </div>
+            <a href="#order" class="bg-blue-600 text-white font-semibold px-5 py-2 rounded-lg hover:bg-blue-700 transition duration-300">
+                Order Now
+            </a>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero-section text-white text-center py-20 sm:py-32">
+        <div class="container mx-auto px-6">
+            <h1 class="text-4xl sm:text-6xl font-extrabold leading-tight mb-4">
+                Ultimate Protection for Student Athletes
+            </h1>
+            <p class="text-lg sm:text-xl mb-8 max-w-3xl mx-auto">
+                Custom-fit, professionally made mouthguards designed for maximum safety, comfort, and performance.
+            </p>
+            <a href="#order" class="bg-white text-blue-700 font-bold px-8 py-4 rounded-lg text-lg hover:bg-gray-200 transition duration-300 shadow-lg">
+                Get Started
+            </a>
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <main class="container mx-auto px-6 py-16">
+
+        <!-- About the Program Section -->
+        <section id="about" class="mb-20 text-center">
+            <h2 class="text-3xl sm:text-4xl font-bold text-blue-700 mb-6">What is the Custom SportsGuard Program?</h2>
+            <p class="max-w-4xl mx-auto text-lg text-gray-600 leading-relaxed">
+                Our program provides high-quality, custom-fitted mouthguards to student athletes. Unlike boil-and-bite guards, our SportsGuards are created from a precise impression of each athlete's teeth, ensuring a perfect fit. This enhances protection against dental injuries, improves breathing, and allows for clear communication on the field or court.
+            </p>
+        </section>
+
+        <!-- Packages Section -->
+        <section id="packages" class="mb-20">
+            <h2 class="text-3xl sm:text-4xl font-bold text-blue-700 text-center mb-12">Choose Your Package</h2>
+            <div class="grid md:grid-cols-3 gap-8">
+                <!-- Individual Package -->
+                <div class="bg-white p-8 rounded-xl shadow-lg border border-blue-100 text-center transform hover:scale-105 transition duration-300">
+                    <h3 class="text-2xl font-semibold text-blue-600 mb-4">Individual Student</h3>
+                    <p class="text-5xl font-bold text-gray-800 mb-4">$306</p>
+                    <p class="text-gray-500 mb-6">per student</p>
+                    <ul class="text-left space-y-3 text-gray-600">
+                        <li class="flex items-center"><svg class="w-5 h-5 text-green-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>One custom-fit SportsGuard</li>
+                        <li class="flex items-center"><svg class="w-5 h-5 text-green-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>Personalized color & design</li>
+                        <li class="flex items-center"><svg class="w-5 h-5 text-green-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>Custom inscription included</li>
+                    </ul>
+                </div>
+                <!-- Team Package -->
+                <div class="bg-blue-700 text-white p-8 rounded-xl shadow-2xl border-4 border-blue-300 text-center transform hover:scale-105 transition duration-300">
+                    <span class="bg-blue-300 text-blue-800 text-xs font-bold px-3 py-1 rounded-full uppercase mb-4 inline-block">Most Popular</span>
+                    <h3 class="text-2xl font-semibold mb-4">Team Safety Bundle</h3>
+                    <p class="text-5xl font-bold mb-4">$150</p>
+                    <p class="text-blue-200 mb-6">per athlete (10+)</p>
+                     <ul class="text-left space-y-3 text-blue-100">
+                        <li class="flex items-center"><svg class="w-5 h-5 text-white mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>Discounted team pricing</li>
+                        <li class="flex items-center"><svg class="w-5 h-5 text-white mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>Coordinated team colors</li>
+                        <li class="flex items-center"><svg class="w-5 h-5 text-white mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>Bulk delivery options</li>
+                    </ul>
+                </div>
+                <!-- School Package -->
+                <div class="bg-white p-8 rounded-xl shadow-lg border border-blue-100 text-center transform hover:scale-105 transition duration-300">
+                    <h3 class="text-2xl font-semibold text-blue-600 mb-4">Whole School Program</h3>
+                    <p class="text-4xl font-bold text-gray-800 mb-4">Custom Quote</p>
+                    <p class="text-gray-500 mb-6">Contact us for pricing</p>
+                    <ul class="text-left space-y-3 text-gray-600">
+                        <li class="flex items-center"><svg class="w-5 h-5 text-green-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>Comprehensive athletic protection</li>
+                        <li class="flex items-center"><svg class="w-5 h-5 text-green-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>On-site fitting events</li>
+                        <li class="flex items-center"><svg class="w-5 h-5 text-green-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>School Purchase Orders accepted</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- How It Works Section -->
+        <section id="how-it-works" class="mb-20">
+            <h2 class="text-3xl sm:text-4xl font-bold text-blue-700 text-center mb-12">Simple 3-Step Process</h2>
+            <div class="flex flex-col md:flex-row justify-between items-center space-y-8 md:space-y-0 md:space-x-8">
+                <!-- Step 1 -->
+                <div class="text-center max-w-xs">
+                    <div class="bg-blue-100 text-blue-700 rounded-full w-20 h-20 flex items-center justify-center mx-auto mb-4 text-3xl font-bold">1</div>
+                    <h3 class="text-xl font-semibold mb-2">Fill Out the Form</h3>
+                    <p class="text-gray-600">Complete our simple online order form with parent, student, and customization details.</p>
+                </div>
+                <!-- Step 2 -->
+                <div class="text-center max-w-xs">
+                    <div class="bg-blue-100 text-blue-700 rounded-full w-20 h-20 flex items-center justify-center mx-auto mb-4 text-3xl font-bold">2</div>
+                    <h3 class="text-xl font-semibold mb-2">Impression & Fitting</h3>
+                    <p class="text-gray-600">We'll schedule a time for a quick and easy dental impression at a convenient location.</p>
+                </div>
+                <!-- Step 3 -->
+                <div class="text-center max-w-xs">
+                    <div class="bg-blue-100 text-blue-700 rounded-full w-20 h-20 flex items-center justify-center mx-auto mb-4 text-3xl font-bold">3</div>
+                    <h3 class="text-xl font-semibold mb-2">Receive Your Guard</h3>
+                    <p class="text-gray-600">Pick up your professionally crafted, custom-fit SportsGuard and play with confidence.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Customization & Delivery Section -->
+        <section class="mb-20 bg-white p-10 rounded-xl shadow-lg border border-blue-100">
+            <div class="grid md:grid-cols-2 gap-12 items-center">
+                <div>
+                    <h2 class="text-3xl font-bold text-blue-700 mb-6">Personalize Your Protection</h2>
+                    <p class="text-gray-600 mb-4">Make your SportsGuard truly your own. We offer a range of customization options to match team colors, show off player numbers, or add a motivational quote.</p>
+                    <ul class="space-y-3">
+                        <li class="flex items-start"><span class="text-blue-600 font-bold mr-2">✓</span> <strong>Colors & Designs:</strong> Choose from a wide variety of colors, including school colors like red and blue.</li>
+                        <li class="flex items-start"><span class="text-blue-600 font-bold mr-2">✓</span> <strong>Custom Inscriptions:</strong> Add a name, number, or short quote directly onto the mouthguard.</li>
+                        <li class="flex items-start"><span class="text-blue-600 font-bold mr-2">✓</span> <strong>Team Logos:</strong> We can incorporate team logos for a unified, professional look. (Contact us for details).</li>
+                    </ul>
+                </div>
+                <div>
+                     <h2 class="text-3xl font-bold text-blue-700 mb-6">Convenient Delivery</h2>
+                    <p class="text-gray-600 mb-4">We make getting your custom mouthguard easy with several pickup and delivery options.</p>
+                     <ul class="space-y-3">
+                        <li class="flex items-start"><span class="text-blue-600 font-bold mr-2">✓</span> Pick up at the school, library, or our dental office.</li>
+                        <li class="flex items-start"><span class="text-blue-600 font-bold mr-2">✓</span> Bulk mailing options available for teams and schools.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Call to Action Section -->
+        <section id="order" class="text-center bg-blue-600 text-white p-12 rounded-xl shadow-2xl">
+            <h2 class="text-3xl sm:text-4xl font-bold mb-4">Ready to Protect Your Athlete?</h2>
+            <p class="text-lg text-blue-200 mb-8 max-w-2xl mx-auto">
+                Click the button below to access our secure online order form. The process is quick, easy, and the first step towards superior protection.
+            </p>
+            <button onclick="alert('This would link to the full order form application.')" class="bg-white text-blue-700 font-bold px-10 py-4 rounded-lg text-xl hover:bg-gray-200 transition duration-300 shadow-lg">
+                Fill Out the Order Form Now
+            </button>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white">
+        <div class="container mx-auto px-6 py-8 text-center">
+            <p class="text-lg font-semibold">Custom SportsGuard Program</p>
+            <p class="text-gray-400 mt-2">Powered by Ocean Shore Dentistry</p>
+            <p class="text-gray-400 mt-1">For questions or to discuss a whole school program, please contact us.</p>
+            <p class="text-gray-400 mt-1">Phone: (123) 456-7890 | Email: contact@sportsguardprogram.com</p>
+        </div>
+    </footer>
+
+</body>
+</html>
